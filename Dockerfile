@@ -1,4 +1,4 @@
-FROM python:3.8.1-slim
+FROM python:3.12.0rc2-slim
 WORKDIR /usr/src/app
 COPY openapi ./openapi
 COPY requirements.txt .
